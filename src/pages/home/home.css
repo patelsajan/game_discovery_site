@@ -2,10 +2,20 @@
 .header {
 	height: 10vh;
 	width: 100%;
+	border-bottom: 1px solid white;
 }
 
+.header_text {
+	float: left;
+	padding: 10px;
+	font-weight: bold;
+	align-item: center;
+}
 .menu_btn {
 	height: 100%;
-	position: absolute;
-	right: 0px;
+	float:right;
+}
+
+.menu_btn > * {
+	height: 100%;
 }
